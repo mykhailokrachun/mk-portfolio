@@ -159,10 +159,16 @@ const MainProjects = () => {
             form.
           </p>
           <div className='w-full grid grid-cols-2 p-4 space-x-2'>
-            <Link href='#placeholder' className={styles.linkButton}>
+            <Link
+              href='https://mykhailok-portfolio.netlify.app'
+              className={styles.linkButton}
+            >
               Demo
             </Link>
-            <Link href='#placeholder' className={styles.linkButton}>
+            <Link
+              href='https://github.com/mykhailokrachun/mk-portfolio'
+              className={styles.linkButton}
+            >
               Source
             </Link>
           </div>
