@@ -20,7 +20,7 @@ const Home = () => {
     >
       <div className='flex flex-col justify-center items-center z-[1]'>
         <article className='w-full xl:w-2/3 h-full text-altGray font-[700] text-[3rem] xl:mt-[30%]'>
-          Hello, I'm
+          Hello, I&apos;m
           <br />
           Mykhailo
           <br />

@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className='relative h-auto bg-altGray w-screen flex flex-wrap justify-center items-center'>
       <div className='relative flex flex-wrap items-middle flex-col'>
         <h1 className='text-whiteforform text-2xl text-center mt-6'>
-          Mykhailo's Portfolio
+          Mykhailo&apos;s Portfolio
         </h1>
         <p className='text-platina text-xl text-center px-4'>
           Thanks for visiting my personal portfolio website. Connect with me

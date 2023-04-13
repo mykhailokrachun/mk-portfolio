@@ -10,6 +10,7 @@ const NotFound = () => {
       router.push('/');
     }, 3000);
     return () => clearTimeout(timer);
+    // eslint-disable-next-line
   }, []);
 
   return (
