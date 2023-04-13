@@ -1,0 +1,15 @@
+.linkButton {
+  @apply border-2 border-altGray rounded-xl p-2 hover:bg-altBlue hover:text-platina duration-500 text-center;
+}
+
+.article {
+  @apply border-2 border-altGray bg-platina rounded-2xl flex flex-wrap justify-between flex-col h-full overflow-hidden hover:shadow-2xl duration-500 hover:border-altBlue text-altGray;
+}
+
+.h1project {
+  @apply text-4xl text-start p-4;
+}
+
+.techUsed {
+  @apply inline-flex items-center m-2 space-x-2 text-xl p-3 border-2 border-altGray rounded-2xl hover:bg-altBlue hover:text-platina duration-500;
+}
