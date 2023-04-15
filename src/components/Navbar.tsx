@@ -1,7 +1,5 @@
 import Link from 'next/link';
-import ThemeToggle from './ThemeToggle';
 import NavbarLinks from './navigationComponents/NavbarLinks';
-// backdrop - blur - sm;
 
 const Navbar = () => {
   return (

@@ -11,7 +11,6 @@ const skills = () => {
         <title>Skills | MK</title>
         <meta name='keywords' content='skills' />
       </Head>
-      {/* <ParticlesComponent /> */}
       <section className='min-h-screen w-full flex flex-wrap flex-col items-center h-full'>
         <h1 className='text-[3rem] text-altBlue font-[700] p-2 pb-0 md:pb-10 md:p-10'>
           Skills
