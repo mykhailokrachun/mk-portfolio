@@ -127,7 +127,7 @@ const MainProjects = () => {
         </article>
         {/* third column */}
         <article className={styles.article}>
-          <Link href='#eCommerce'>
+          <Link href='https://mykhailok-portfolio.netlify.app'>
             <Image
               src={
                 theme === 'dark' ? portfolioPreviewDark : portfolioPreviewLight
