@@ -4,7 +4,7 @@ export const certificationsData = [
     platform: 'Udemy Online School',
     styles: {
       liClass:
-        'relative before:content-["●"] before:text-4xl before:text-altBlue px-4 before:left-[-0.75rem] before:top-[-0.7rem] before:absolute',
+        'relative before:content-["●"] before:text-6xl before:text-altBlue px-4 before:left-[-1.2rem] before:top-[-1.2rem] before:absolute',
       h2Class: 'text-lg relative',
       linkClass:
         'border-2 rounded-xl border-altGray md:mx-2 p-1 hover:bg-altBlue hover:text-platina duration-500',
