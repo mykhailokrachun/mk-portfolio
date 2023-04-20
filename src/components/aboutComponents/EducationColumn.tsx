@@ -8,7 +8,7 @@ const EducationColumn = () => {
         </h1>
         <div className='flex flex-col justify-start flex-wrap bg-platina p-4 text-2xl '>
           <ul className='relative list-inside border-l-2 border-altGray box-border'>
-            <li className='relative before:content-["●"] before:text-6xl before:text-altBlue px-4 before:left-[-1.2rem] before:top-[-1.2rem] before:absolute'>
+            <li className='relative before:content-["●"] before:text-6xl before:text-altBlue px-4 before:left-[-1.2rem] before:top-[-1.3rem] before:absolute'>
               Institute of International Relations, Taras Shevchenko National
               University of Kyiv
               <h2 className='text-lg relative'>
