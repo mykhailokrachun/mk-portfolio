@@ -4,6 +4,7 @@ import eCommercePreview from '../../../public/furniShopPreview.jpeg';
 import portfolioPreviewLight from '../../../public/portfolioPreviewLight.png';
 import portfolioPreviewDark from '../../../public/portfolioPreviewDark.png';
 import jobTrackerPreview from '../../../public/jobTrackerPreview.png';
+import githubAnalyzerPreview from '../../../public/githubAnalyzerPreview.png';
 import { GrReactjs } from 'react-icons/gr';
 import {
   SiStyledcomponents,
@@ -12,6 +13,7 @@ import {
   SiCreatereactapp,
   SiVite,
   SiTailwindcss,
+  SiAuth0,
 } from 'react-icons/si';
 import { TbBrandNextjs } from 'react-icons/tb';
 import styles from '../../styles/MainProjects.module.css';
@@ -25,7 +27,7 @@ const MainProjects = () => {
       <h1 className='text-[3rem] text-altBlue font-[700] p-2 pb-0 md:pb-4 md:p-4 text-center'>
         Main Projects
       </h1>
-      <div className='w-full p-8 grid grid-rows-3 md:grid-rows-none md:grid-cols-3 gap-10 md:gap-10 md:px-20'>
+      <div className='w-full p-8 grid grid-rows-3 md:grid-rows-none md:grid-cols-4 gap-10 md:gap-10 md:px-20'>
         {/* first column */}
         <article className={styles.article}>
           <Link href='https://mykhailok-job-application-tracker.netlify.app/'>
@@ -100,6 +102,10 @@ const MainProjects = () => {
               <span>styled-components</span>
             </article>
             <article className={styles.techUsed}>
+              <SiAuth0 />
+              <span>Auth0</span>
+            </article>
+            <article className={styles.techUsed}>
               <SiCreatereactapp />
               <span>CRA</span>
             </article>
@@ -167,6 +173,60 @@ const MainProjects = () => {
             </Link>
             <Link
               href='https://github.com/mykhailokrachun/mk-portfolio'
+              className={styles.linkButton}
+            >
+              Source
+            </Link>
+          </div>
+        </article>
+        {/* fourth column */}
+        <article className={styles.article}>
+          <Link href='https://mykhailok-github-analyzer.netlify.app/'>
+            <Image
+              src={githubAnalyzerPreview}
+              alt='githubAnalyzer preview'
+              className='w-full h-auto'
+            />
+          </Link>
+          <h1 className={styles.h1project}>GitHub Analyzer</h1>
+          {/* tech used */}
+          <div className='flex flex-wrap items-center p-2'>
+            <article className={styles.techUsed}>
+              <GrReactjs />
+              <span>React</span>
+            </article>
+            <article className={styles.techUsed}>
+              <SiStyledcomponents />
+              <span>styled-components</span>
+            </article>
+            <article className={styles.techUsed}>
+              <SiAxios />
+              <span>Axios</span>
+            </article>
+            <article className={styles.techUsed}>
+              <TbBrandNextjs />
+              <span>Next.js</span>
+            </article>
+            <article className={styles.techUsed}>
+              <SiAuth0 />
+              <span>Auth0</span>
+            </article>
+          </div>
+          <p className='text-lg p-4'>
+            Project showcases a GitHub Analyzer where user can check all info of
+            any user on GitHub including: followers,number of repos, most used
+            languages, most popular repos, stars per language and other info but
+            firstly user must register.
+          </p>
+          <div className='w-full grid grid-cols-2 p-4 space-x-2'>
+            <Link
+              href='https://mykhailok-github-analyzer.netlify.app/'
+              className={styles.linkButton}
+            >
+              Demo
+            </Link>
+            <Link
+              href='https://github.com/mykhailokrachun/github-analyzer'
               className={styles.linkButton}
             >
               Source
