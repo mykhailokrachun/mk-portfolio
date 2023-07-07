@@ -9,6 +9,9 @@ const MiniProjects = () => {
       <h1 className='text-[3rem] text-altBlue font-[700] p-2 pb-0 md:pb-4 md:p-4 text-center'>
         Mini Projects
       </h1>
+      <h1 className='text-[3rem] text-altBlue font-[700] p-2 pb-0 md:pb-4 md:p-4 text-center'>
+        Front-End
+      </h1>
       <div className='w-full p-8 grid grid-rows-3 md:grid-rows-none md:grid-cols-3 gap-10 md:gap-10 md:px-20'>
         {/* first column */}
         <article className={styles.article}>

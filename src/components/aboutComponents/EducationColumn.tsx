@@ -1,6 +1,22 @@
 const EducationColumn = () => {
   return (
     <div className='w-full p-5'>
+      {/* Experience */}
+      <div className='w-full p-4 md:p-0'>
+        <h1 className='text-3xl text-center text-altBlue font-[700] p-2 pb-0 md:pb-10 md:p-10'>
+          Experience
+        </h1>
+        <div className='flex flex-col justify-start flex-wrap bg-platina p-4 text-2xl '>
+          <ul className='relative list-inside border-l-2 border-altGray box-border'>
+            <li className='relative before:content-["●"] before:text-6xl before:text-altBlue px-4 before:left-[-1.2rem] before:top-[-1.3rem] before:absolute'>
+              Serverless Team
+              <h2 className='text-lg relative'>NodeJS Back-End Developer</h2>
+              <time className='relative'>7/2023 - Present</time>
+            </li>
+          </ul>
+        </div>
+      </div>
+      {/* end of Experience */}
       {/* Education */}
       <div className='w-full p-4 md:p-0'>
         <h1 className='text-3xl text-center text-altBlue font-[700] p-2 pb-0 md:pb-10 md:p-10'>
