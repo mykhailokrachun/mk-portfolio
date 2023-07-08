@@ -10,11 +10,11 @@ const about = () => {
         <meta name='keywords' content='about' />
       </Head>
       <section className='min-h-screen w-full grid md:grid-cols-2'>
-        {/* column with certifications */}
-        <Certifications />
         {/* column with education and about me */}
         <EducationColumn />
         {/* end of row with education and about me */}
+        {/* column with certifications */}
+        <Certifications />
       </section>
     </>
   );
