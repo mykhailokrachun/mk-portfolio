@@ -11,7 +11,7 @@ const EducationColumn = () => {
             <li className='relative before:content-["●"] before:text-6xl before:text-altBlue px-4 before:left-[-1.2rem] before:top-[-1.3rem] before:absolute'>
               Serverless Team
               <h2 className='text-lg relative'>Full-Stack Developer</h2>
-              <time className='relative'>7/2022 - Present</time>
+              <time className='relative'>7/2023 - Present</time>
             </li>
           </ul>
         </div>
