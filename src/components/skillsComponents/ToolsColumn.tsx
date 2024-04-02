@@ -1,4 +1,5 @@
 import { BsGit } from 'react-icons/bs';
+import { SiTerraform, SiDocker } from 'react-icons/si';
 
 const ToolsColumn = () => {
   return (
@@ -8,6 +9,14 @@ const ToolsColumn = () => {
         <article className='h-auto inline-flex items-center space-x-2 text-xl p-3'>
           <BsGit />
           <span>Git</span>
+        </article>
+        <article className='h-auto inline-flex items-center space-x-2 text-xl p-3'>
+          <SiTerraform />
+          <span>Terraform</span>
+        </article>
+        <article className='h-auto inline-flex items-center space-x-2 text-xl p-3'>
+          <SiDocker />
+          <span>Docker</span>
         </article>
       </div>
     </div>

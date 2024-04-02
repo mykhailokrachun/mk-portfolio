@@ -10,7 +10,14 @@ const EducationColumn = () => {
           <ul className='relative list-inside border-l-2 border-altGray box-border'>
             <li className='relative before:content-["●"] before:text-6xl before:text-altBlue px-4 before:left-[-1.2rem] before:top-[-1.3rem] before:absolute'>
               Serverless Team
-              <h2 className='text-lg relative'>Full-Stack Developer</h2>
+              <h2 className='text-lg relative italic'>Internship</h2>
+              <h2 className='text-xl relative'>Backend Developer</h2>
+              <time className='relative'>6/2022 - 7/2022</time>
+            </li>
+            <li className='relative before:content-["●"] before:text-4xl before:text-altBlue px-4 before:left-[-0.75rem] before:top-[-0.32rem] before:absolute'>
+              Serverless Team
+              <h2 className='text-lg relative italic'>Full-time</h2>
+              <h1 className='text-xl relative'>Backend Developer</h1>
               <time className='relative'>7/2022 - Present</time>
             </li>
           </ul>
@@ -59,7 +66,7 @@ const EducationColumn = () => {
           </article>
           <article className='h-auto inline-flex items-center justify-between  space-x-2 text-xl p-3'>
             <h1>Age:</h1>
-            <h1>22</h1>
+            <h1>23</h1>
           </article>
           <article className='h-auto inline-flex items-center justify-between  space-x-2 text-xl p-3'>
             <h1>Location:</h1>

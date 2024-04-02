@@ -41,11 +41,11 @@ const Home = () => {
             >
               Contact me
             </a>
-            <button className='h-auto font-[600] text-altGray border-2 border-altGray rounded-full p-3 bg-platina hover:bg-altBlue hover:text-platina duration-500'>
+            {/* <button className='h-auto font-[600] text-altGray border-2 border-altGray rounded-full p-3 bg-platina hover:bg-altBlue hover:text-platina duration-500'>
               <a href='./mk_resume_eng_full_stack_developer-2.pdf' download>
                 Download Resume
               </a>
-            </button>
+            </button> */}
           </div>
         </article>
       </div>
