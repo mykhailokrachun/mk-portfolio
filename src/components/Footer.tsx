@@ -37,7 +37,7 @@ const Footer = () => {
             <AiFillGithub />
           </Link>
           <Link
-            href='https://www.linkedin.com/in/mykhailo-krachun-98516025a/'
+            href='https://www.linkedin.com/in/mykhailok/'
             className='text-platina text-5xl hover:text-altBlue hover:border-2 ease-out duration-500'
           >
             <AiFillLinkedin />

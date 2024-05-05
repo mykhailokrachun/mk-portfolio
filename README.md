@@ -23,4 +23,4 @@ Project showcases my portfolio with a Multi-Page approach and light/dark modes. 
 👤 **Mykhailo Krachun**
 
 - GitHub: [@mykhailokrachun](https://github.com/mykhailokrachun)
-- LinkedIn: [Mykhailo K](https://www.linkedin.com/in/mykhailo-krachun-98516025a/)
+- LinkedIn: [Mykhailo K](https://www.linkedin.com/in/mykhailok/)
